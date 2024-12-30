@@ -23,8 +23,8 @@ const App = () => {
         onChange={(e) => dispatch(updateEmail(e.target.value))}
       />
       <h1>Current values in store:</h1>
-      <p >Name - {name}</p>
-      <p >Email - {email}</p>
+      <p className="output">Name - {name}</p>
+      <p className="output">Email - {email}</p>
     </div>
   )
 }
