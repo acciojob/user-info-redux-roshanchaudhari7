@@ -9,9 +9,10 @@ const App = () => {
   const dispatch = useDispatch()
   return (
     <div>
+      <h1>User Information</h1>
       Name:
       <input
-        type="name"
+        type="text"
         value={name}
         onChange={(e) => dispatch(updateName(e.target.value))}
       /> <br />
