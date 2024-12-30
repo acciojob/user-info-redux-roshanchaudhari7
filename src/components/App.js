@@ -17,11 +17,11 @@ const App = () => {
       /> <br />
       Email:
       <input
-        type="text"
+        type="email"
         value={email}
         onChange={(e) => dispatch(updateEmail(e.target.value))}
       />
-      <p>Current values in store:</p>
+      <h1>Current values in store:</h1>
       <p >Name - {name}</p>
       <p >Email - {email}</p>
     </div>
